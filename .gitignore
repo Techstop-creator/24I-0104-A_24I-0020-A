@@ -10,6 +10,16 @@ venv/
 # Packaging archives
 *.zip
 
+# Local build / utility scripts
+create_submission_zip.py
+generate_documents.py
+generate_docx.py
+setup_github_and_collaborators.py
+
+# Assignment prompt docs
+Project Phase 1.docx
+Project Phase 1.pdf
+
 # OS metadata
 .DS_Store
 Thumbs.db
