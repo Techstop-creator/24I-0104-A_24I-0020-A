@@ -2,12 +2,13 @@ LIFELINE Project - Group Members
 Group Number: 66
 
 Member 1:
-Name: Member 1 (Roll 24i-0104)
-Roll Number: 24i-0104
-Section: A
+Name: Irtaza Shahid
+Roll Number: 24I-0104
+Section: AI-A
+Degree: BS Artificial Intelligence
 
 Member 2:
-Name: Member 2 (Roll 24i-0020)
-Roll Number: 24i-0020
-Section: A
-
+Name: Muhammad Harris
+Roll Number: 24I-0020
+Section: AI-A
+Degree: BS Artificial Intelligence

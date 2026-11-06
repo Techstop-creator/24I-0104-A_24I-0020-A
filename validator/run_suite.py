@@ -17,7 +17,8 @@ def run_suite(report_path="validation_report.txt"):
 
     log("=" * 80)
     log("LIFELINE VALIDATION SUITE REPORT")
-    log("Group Number: 66 | Section: A | Members: 24i-0104, 24i-0020")
+    log("Group Number: 66 | Section: AI-A | Degree: BS Artificial Intelligence")
+    log("Members: Irtaza Shahid (24I-0104), Muhammad Harris (24I-0020)")
     log("=" * 80)
     log()
 

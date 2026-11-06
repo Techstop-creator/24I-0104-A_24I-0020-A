@@ -1,11 +1,12 @@
 # LIFELINE: Algorithmic Relief-Command Engine (Phase 1)
 
-**Course:** Design and Analysis of Algorithms (CS/AI)  
+**Course:** Design and Analysis of Algorithms  
+**Degree:** BS Artificial Intelligence (AI)  
 **Institution:** National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad Campus  
-**Group Number:** 66 | **Section:** A  
+**Group Number:** 66 | **Section:** AI-A  
 **Team Members:**  
-* **Member 1:** Roll No `24i-0104` (Section A)  
-* **Member 2:** Roll No `24i-0020` (Section A)  
+* **Member 1:** Irtaza Shahid | Roll No: `24I-0104` | Section: `AI-A`  
+* **Member 2:** Muhammad Harris | Roll No: `24I-0020` | Section: `AI-A`  
 **GitHub Repository:** [https://github.com/Techstop-creator/24I-0104-A_24I-0020-A](https://github.com/Techstop-creator/24I-0104-A_24I-0020-A)  
 
 ---
@@ -192,11 +193,14 @@ The validator independently parses raw files, reconstructs data structures, and 
 ## 8. Work Division & Git History
 
 ### Iteration 1 Responsibilities
-* **Member 1 (`24i-0104`):** Core generator architecture (`main.py`, openpyxl serializer), Crates, Locations, Roads, Wave Closures, Traps 46 & 48, Validator checks V1, V2, V3, V4, V7, and Approach Note Parts 1 & 3.
-* **Member 2 (`24i-0020`):** Radio Log & Chunking, Patterns, Reports & Levenshtein mutation, Windows, Incidents, Sites, TSP Tour, Pipeline Dimensions, Drum Prices, Sensor Cover, 3-SAT, Rations, Exact Tier-S Solvers, Traps 47 & 49, Validator checks V5, V6, V8, Broken Test Suite, and Proposal Document.
+* **Member 1 (Irtaza Shahid - `24I-0104`, Section AI-A):** Core generator architecture (`main.py`, openpyxl serializer), Crates, Locations, Roads, Wave Closures, Traps 46 & 48, Validator checks V1, V2, V3, V4, V7, and Approach Note Parts 1 & 3.
+* **Member 2 (Muhammad Harris - `24I-0020`, Section AI-A):** Radio Log & Chunking, Patterns, Reports & Levenshtein mutation, Windows, Incidents, Sites, TSP Tour, Pipeline Dimensions, Drum Prices, Sensor Cover, 3-SAT, Rations, Exact Tier-S Solvers, Traps 47 & 49, Validator checks V5, V6, V8, Broken Test Suite, and Proposal Document.
 
 ### Commit History (Alternating Multi-Author)
 ```text
+ee34d5f - 24i-0104: chore: clean up repo by removing internal build scripts and updating .gitignore
+bdcff67 - 24i-0020: docs: add master README.md and update submission packager
+b1f8016 - 24i-0104: docs: add comprehensive approach.md covering Section 5 parts 1 to 4
 7335345 - 24i-0020: docs: add editable Word (.docx) version of approach note and setup tools
 81a9e8b - 24i-0104: chore: update repository.txt with official GitHub repository URL
 e9a77b1 - 24i-0104: build: add automated submission packager and finalize Phase 1 delivery

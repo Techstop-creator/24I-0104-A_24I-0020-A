@@ -1,6 +1,7 @@
 ================================================================================
 LIFELINE VALIDATION SUITE REPORT
-Group Number: 66 | Section: A | Members: 24i-0104, 24i-0020
+Group Number: 66 | Section: AI-A | Degree: BS Artificial Intelligence
+Members: Irtaza Shahid (24I-0104), Muhammad Harris (24I-0020)
 ================================================================================
 
 --- [1/2] VALIDATING MASTER DATASET: C:\Users\DELL\OneDrive\Desktop\DAA Phase 1\cases.xlsx ---

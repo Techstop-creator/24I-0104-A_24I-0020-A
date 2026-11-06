@@ -1,6 +1,6 @@
 # LIFELINE Data Generator
 
-This program generates `cases.xlsx` for Group 66 (Roll Nos: 24i-0104, 24i-0020), strictly following all rules, schemas, tier bounds, case signatures, planted objects, and trap specifications of the LIFELINE project (Phase 1).
+This program generates `cases.xlsx` for Group 66 (Irtaza Shahid - `24I-0104`, Muhammad Harris - `24I-0020` | Section: `AI-A` | Degree: `BS Artificial Intelligence`), strictly following all rules, schemas, tier bounds, case signatures, planted objects, and trap specifications of the LIFELINE project (Phase 1).
 
 ## Reproduction Command
 

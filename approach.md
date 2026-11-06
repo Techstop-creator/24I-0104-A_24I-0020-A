@@ -1,11 +1,12 @@
 # LIFELINE: Iteration 1 Approach Note (`approach.md`)
 
-**Course:** Design and Analysis of Algorithms (CS/AI) | FAST-NUCES Islamabad  
+**Course:** Design and Analysis of Algorithms | FAST-NUCES Islamabad  
+**Degree:** BS Artificial Intelligence (AI)  
 **Project:** LIFELINE — Algorithmic Relief-Command Engine (Phase 1)  
-**Group Number:** 66 | **Section:** A  
+**Group Number:** 66 | **Section:** AI-A  
 **Team Members:**  
-* Member 1: Roll No `24i-0104` (Section A)  
-* Member 2: Roll No `24i-0020` (Section A)  
+* **Member 1:** Irtaza Shahid | Roll No: `24I-0104` | Section: `AI-A`  
+* **Member 2:** Muhammad Harris | Roll No: `24I-0020` | Section: `AI-A`  
 
 ---
 

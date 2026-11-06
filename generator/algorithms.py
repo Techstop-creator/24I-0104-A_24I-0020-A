@@ -2,7 +2,8 @@
 LIFELINE Data Generator
 Design and Analysis of Algorithms - Project Phase 1
 FAST-NUCES Islamabad
-Team: 24i-0104, 24i-0020
+Degree: BS Artificial Intelligence (AI) | Section: AI-A
+Team: Irtaza Shahid (24I-0104), Muhammad Harris (24I-0020)
 """
 
 import sys
