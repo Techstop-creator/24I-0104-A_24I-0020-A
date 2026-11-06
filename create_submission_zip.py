@@ -34,8 +34,13 @@ def create_zip():
         # 4. validation_report.txt
         z.write(os.path.join(BASE_DIR, "validation_report.txt"), arcname="validation_report.txt")
 
-        # 5. approach_note.pdf
-        z.write(os.path.join(BASE_DIR, "approach_note.pdf"), arcname="approach_note.pdf")
+        # 5. approach.md and approach note documents (PDF & Word)
+        if os.path.exists(os.path.join(BASE_DIR, "approach.md")):
+            z.write(os.path.join(BASE_DIR, "approach.md"), arcname="approach.md")
+        if os.path.exists(os.path.join(BASE_DIR, "approach_note.pdf")):
+            z.write(os.path.join(BASE_DIR, "approach_note.pdf"), arcname="approach_note.pdf")
+        if os.path.exists(os.path.join(BASE_DIR, "approach_note.docx")):
+            z.write(os.path.join(BASE_DIR, "approach_note.docx"), arcname="approach_note.docx")
 
         # 6. proposal.pdf
         z.write(os.path.join(BASE_DIR, "proposal.pdf"), arcname="proposal.pdf")
@@ -45,6 +50,10 @@ def create_zip():
 
         # 8. members.txt
         z.write(os.path.join(BASE_DIR, "members.txt"), arcname="members.txt")
+
+        # 9. README.md
+        if os.path.exists(os.path.join(BASE_DIR, "README.md")):
+            z.write(os.path.join(BASE_DIR, "README.md"), arcname="README.md")
 
     print(f"Archive {ZIP_NAME} successfully created!")
 
