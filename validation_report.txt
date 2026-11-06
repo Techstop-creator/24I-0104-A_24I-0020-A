@@ -1,0 +1,67 @@
+================================================================================
+LIFELINE VALIDATION SUITE REPORT
+Group Number: 66 | Section: A | Members: 24i-0104, 24i-0020
+================================================================================
+
+--- [1/2] VALIDATING MASTER DATASET: C:\Users\DELL\OneDrive\Desktop\DAA Phase 1\cases.xlsx ---
+STATUS: PASS
+RESULT: All 50 cases strictly comply with all rules V1 through V8.
+
+--- [2/2] VALIDATING BROKEN TEST COPIES (NEGATIVE REJECTION AUDIT) ---
+Testing broken case: case_00_broken_1_V1_bad_sheet.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V1] Sheet names or order mismatch. Found: ['cases', 'crates', 'locations', 'roads', 'waves', 'radio_log', 'radio_patterns', 'radio_reports', 'windows', 'incidents', 'sites', 'tour', 'pipeline_dims', 'drum_prices', 'sensor_edges', 'sensor_cover', 'safety_rules', 'safety_planted', 'rations', 'wrong_claims_name']
+
+Testing broken case: case_00_broken_2_V2_crate_weight.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V2] Case 66-00: Crate weight 99 not in [1, 20]
+
+Testing broken case: case_00_broken_3_V3_dangling_target.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 2 broken rule(s):
+    -> [V3] Case 66-00: Target 999 not in locations
+    -> [V7] Variety 2: BFS path more expensive in 4 Tier S cases, expected >= 5
+
+Testing broken case: case_00_broken_4_V4_disconnected_graph.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 19 broken rule(s):
+    -> [V3] Case 66-00: Repeated road pair (0, 2)
+    -> [V3] Case 66-00: Repeated road pair (0, 2)
+    -> [V3] Case 66-00: Repeated road pair (0, 2)
+    -> ... and 16 more.
+
+Testing broken case: case_00_broken_5_V5_wrong_claim.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V5] Case 66-00: cargo_opt 99999 != true 96
+
+Testing broken case: case_20_broken_1_V2_bad_penalty.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V2] Case 66-20: Loc 0 must be HQ (type D, penalty 0)
+
+Testing broken case: case_20_broken_2_V4_overlapping_waves.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V4] Case 66-20: Road 9 closed in multiple waves [1, 2]
+
+Testing broken case: case_20_broken_3_V5_bad_pattern_count.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V5] Case 66-20: Pattern 'SV' reported count 503 != true count 3
+
+Testing broken case: case_20_broken_4_V6_unsat_3sat.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V6] Case 66-20: Safety rule 1 unsatisfied by planted assignment
+
+Testing broken case: case_20_broken_5_V6_invalid_rations.xlsx
+  STATUS: REJECTED (CORRECT BEHAVIOR)
+  Detected 1 broken rule(s):
+    -> [V6] Case 66-20: Sum of planted rations 1244 != rations_target 999999
+
+================================================================================
+SUMMARY: Master dataset PASS. Rejection audit: 10/10 broken copies correctly rejected.
+================================================================================
